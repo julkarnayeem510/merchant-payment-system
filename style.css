@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #2a9d8f;
+    color: #fff;
+    text-align: center;
+    padding: 1.2em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+/* Main Content */
+main {
+    width: 90%;
+    margin: 1.5em auto;
+}
+
+/* Controls Section */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2em;
+    background: #ffffff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar input {
+    padding: 0.5em;
+    font-size: 1rem;
+    width: 200px;
+}
+
+.search-bar button,
+.add-payment {
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 0.6em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover,
+.add-payment:hover {
+    background-color: #21867a;
+}
+
+.filters label {
+    font-weight: bold;
+}
+
+.filters select {
+    padding: 0.4em;
+    font-size: 1rem;
+}
+
+/* Payments Table */
+.payments-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payments-table th,
+.payments-table td {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.payments-table th {
+    background-color: #264653;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.payments-table td {
+    font-size: 0.9rem;
+}
+
+.payments-table .status-paid {
+    color: green;
+    font-weight: bold;
+}
+
+.payments-table .status-pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.payments-table .view-btn,
+.payments-table .edit-btn {
+    padding: 0.4em 0.8em;
+    margin: 0 0.2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.payments-table .view-btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.payments-table .edit-btn {
+    background-color: #e9c46a;
+    color: #fff;
+}
+
+.payments-table button:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2em;
+    color: #777;
+}
